@@ -31,6 +31,7 @@ app.post("/api/v1/user/signup", async (c) => {
     });
     
   } catch (error) {
+    console.log(error, "error");
     
   }
 
